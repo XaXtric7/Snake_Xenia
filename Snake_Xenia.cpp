@@ -30,7 +30,8 @@ int main()
     cout << "\t-----------------------------------------" << endl;
     cout << "\t \t    |* SNAKE XENIA *|" << endl;
     cout << "\t-----------------------------------------" << endl;
-    cout << "Press 's' to start the game : ";
+    cout << "\tUp='W', Left='A', Down='S', Right='D' " << endl;
+    cout << "\tPress 's' to start the game : ";
     cin >> start;
 
     if (start == 's')
