@@ -47,6 +47,7 @@ int main()
         cout << "\t\t*****************" << endl;
         cout << "\t\t* GAME OVER!:'( *" << endl;
         cout << "\t\t*****************" << endl;
+        cout << "\t\t Your Score : " << score << endl;
     }
 
     return 0;
