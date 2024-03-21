@@ -136,7 +136,7 @@ void draw()
 void input()
 {
     if (_kbhit())
-        switch (getch())
+        switch (_getch())
         {
         case 'a':
             dir = LEFT;
